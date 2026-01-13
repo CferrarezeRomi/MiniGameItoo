@@ -91,6 +91,15 @@ const scheduleHide = useCallback(() => {
           <h2 className="pb-2 text-lg font-semibold text-gray-900">
             Gerador ITO
           </h2>
+          <a
+            href="../../public/temas.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="my-2 block w-[50%] rounded-2xl bg-emerald-600 px-2 py-1 
+            text-center text-sm font-semibold text-white hover:opacity-90"
+          >
+            Abrir PDF
+          </a>
           <p className="text-sm text-gray-600">
             Não repete o número anterior.
           </p>
